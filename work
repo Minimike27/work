@@ -1,0 +1,26 @@
+// buildtowers then get 
+function start(){
+	buildTower();
+	getDown();
+	buildTower();
+}
+// 
+function buildTower(){
+    move();
+    turnLeft();
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+    move();
+    turnRight();
+}
+function getDown(){
+    move();
+    turnRight();
+    move();
+    move();
+    move();
+    turnLeft();
+}
